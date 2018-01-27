@@ -1,0 +1,4 @@
+#!/bin/bash
+time ./yasat 9.cnf
+time ./yasat 16.cnf
+time ./yasat 25.cnf

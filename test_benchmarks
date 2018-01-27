@@ -1,0 +1,10 @@
+#!/bin/bash
+time ./yasat benchmarks/SAT/sanity/sanity2.cnf
+time ./yasat benchmarks/SAT/sanity/sanity3.cnf
+time ./yasat benchmarks/SAT/tiny/rand10_20.cnf
+time ./yasat benchmarks/SAT/tiny/rand5_10.cnf
+time ./yasat benchmarks/UNSAT/sanity/sanity4.cnf
+time ./yasat benchmarks/UNSAT/sanity/sanity5.cnf
+time ./yasat benchmarks/UNSAT/tiny/rand10_50.cnf
+time ./yasat benchmarks/UNSAT/tiny/rand5_30.cnf
+
